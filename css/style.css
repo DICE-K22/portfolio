@@ -1,0 +1,256 @@
+/* 共通 */
+
+body {
+  font-family: "Monoton", "Noto Sans JP", sans-serif;
+  font-style: normal;
+  background-color: #fffef9;
+}
+
+.inner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.section__title {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 40px;
+  padding-bottom: 14px;
+}
+
+img {
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+}
+
+/* ヘッダー */
+.header {
+  background: #4199b5;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.header__left {
+}
+
+.header__logo {
+  color: #fff;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__right {
+}
+
+.header__list {
+  display: flex;
+  gap: 12px;
+}
+
+.header__list-item {
+  list-style: none;
+}
+
+.header__list-link {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* mv */
+.mv {
+}
+
+.mv__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mv__content {
+  width: 650px;
+  height: 137px;
+  background: #4199b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 171px auto;
+}
+
+.mv__item {
+  width: calc(650px - 20px);
+  height: calc(137px - 20px);
+  background: #4199b5;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.mv__text {
+  color: #fff;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+/* about */
+.about {
+  background: #d9d6d6;
+}
+
+.about__inner {
+  padding-bottom: 50px;
+}
+
+.about__content {
+  display: flex;
+  justify-content: center;
+}
+
+.about__text {
+  color: #000;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fffef9;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/* works */
+.works {
+}
+
+.works__inner {
+}
+
+.works__contents {
+  font-family: "Noto Sans JP";
+  color: #000;
+  padding-left: 82px;
+  padding-right: 82px;
+}
+
+.works__content {
+}
+
+.works__title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+
+.works__cards {
+  display: flex;
+  gap: 44px;
+  margin-bottom: 60px;
+}
+
+.works__card {
+  text-align: center;
+}
+
+.works__card-link {
+}
+
+.works__card-img {
+}
+
+.works__card-text {
+  margin-top: 5px;
+}
+
+.works_description {
+}
+
+.works__card-description {
+}
+
+/* skills */
+.skills {
+  background: #d9d6d6;
+  padding-bottom: 50px;
+}
+
+.skills__inner {
+}
+
+.gallery__slider {
+  padding-left: 82px;
+  padding-right: 82px;
+}
+
+.swiper {
+}
+
+.gallery__swiper {
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 44px;
+  color: #000;
+  font-family: "Noto Sans JP";
+}
+
+.swiper-slide {
+}
+
+.gallery__slide {
+}
+
+.gallery-card {
+  text-align: center;
+}
+
+.gallery-card__image img {
+  width: 150px;
+  height: 150px;
+}
+
+.skills-card__text {
+  font-size: 16px;
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+/* footer */
+.footer {
+  background: #4199b5;
+  display: flex;
+  height: 110px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__inner {
+}
+
+.footer__text {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
